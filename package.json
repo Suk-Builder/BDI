@@ -1,0 +1,21 @@
+{
+  "name": "bdi-builder-density-instrument",
+  "version": "2.5.0",
+  "description": "Builder Density Instrument \u2014 Cognitive + Psychiatric Dual Testing Suite",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "cors": "^2.8.5",
+    "better-sqlite3": "^9.0.0",
+    "dotenv": "^16.0.0",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "license": "MIT"
+}
